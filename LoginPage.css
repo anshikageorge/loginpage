@@ -1,0 +1,127 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photo1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+/*WRAPPER*/
+.wrapper{
+    width: 410px;
+    height: 410px;
+    /*border:2px solid rgb(180, 178, 178);*/
+    border:2px solid  rgba(225, 225, 225, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+}
+/*WRAPPER HEADING*/
+.heading{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+/*INPUT BOX*/
+.wrapper .inputbox{
+    width: 320px;
+    height: 50px;
+    margin: 20px 0;
+    position: relative;
+}
+.inputbox input{
+    width:100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(225, 225, 225, .2);
+    font-size: 16px;
+    border-radius: 25px;
+    padding-left: 15px;
+    color: #ffffff;
+}
+.inputbox ::placeholder{
+    color: #777171;
+    font-weight: 100;
+}
+.inputbox i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+}
+/*REMEMBER AND FORGOT*/
+.rememberforgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: small;
+    /*margin: -10px 0 15px;*/
+    margin-bottom: 18px;
+    color: #fff;
+}
+.rememberforgot label input{
+    accent-color: #ffffff;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+.rememberforgot a{
+    text-decoration: none;
+    color: #fff;
+}
+.rememberforgot a:hover{
+    text-decoration: underline;
+}
+.rememberforgot a:active{
+    opacity: 0.7;
+}
+/*LOGIN BUTTON*/
+.wrapper .LoginButton{
+    width:100%;
+    height: 45px;  
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    font-weight:bold;
+}
+.wrapper .LoginButton:hover{
+    background-color: #9b9292;
+    cursor: pointer;
+}
+.wrapper .LoginButton:active{
+    background-color: #8e88dc;
+}
+/*REGISTER*/
+.register{
+    text-align: center;
+    font-size: medium;
+    font-size: small;
+    margin: 30px 0 10px;
+    color: #fff;
+}
+.register a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+.register a:hover{
+    text-decoration: underline;
+}
+.register a:active{
+    color: blue;
+}
