@@ -17,6 +17,6 @@ This project is a simple login page built using HTML and CSS. The login page all
    ```bash
    git clone https://github.com/yourusername/login-page-project.git
 
-##to see what i have done,browse the below link
+##to see what i have done,browse the given link --> 
 https://anshikageorge.github.io/loginpage/ 
 
